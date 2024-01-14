@@ -1,0 +1,72 @@
+\documentclass[twocolumn, 12pt, a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage[serbian]{babel}
+\begin{document}
+\title{Priprema}
+\author{Amar Čirgić}
+\maketitle
+\begin{abstract}
+Ovo je priprema za završni ispit koji ce biti održan 15.01.2024.  \textit{Sažetak je pisan u \textbf{abstract} okruženju} 
+\end{abstract}
+\section{Formule}
+Posmatrajmo f(x) definisanu formulom
+\begin{equation}\label{eq1}
+	f(x)=\arctg{z\left( \frac{x(x^2-3)}{x^2+2}\right)}
+\end{equation}
+\subsection{Prvi izvod}
+Prvi izvod funkcije \ref{eq1}
+\begin{equation}\label{eq2}
+	\ddot{f}(x)=\frac{x^4_1 + 8x^2-\sqrt[3]{25*25}}{x^4 - 3x^4 + 8x^4 + 8x^2}
+\end{equation}
+\subsection{Extremne vrijednosti}
+Dobijaju se traženjem nula prvog izvoda  (\ref{eq2}). U posmatranom slučaju imamo dva riješenja koja su navedena u tabeli \footnote{Tabela je centrirana}
+
+Uočite da je $ x_1=x_2 $
+\newpage
+\begin{table}[t]
+	\centering
+\begin{tabular} {cc}
+	\hline
+	$ \frac{x_1}{\sqrt{2\sqrt{5}-4}}$ & $\frac{x_2}{\sqrt{2\sqrt{5}-4}} $ \\ \hline
+	maksimum & minimum \\
+	\hline
+\end{tabular}
+\end{table}
+
+\subsection{Dodatno}
+Za posmataranu funckiju imamo da je: 
+
+
+$$S=\sum_{n=0}^{N}{\ddot{f}(n) = \ddot{f}(0) + \ddot{f}(1) + \ldots + \ddot{f}(N)}$$ 
+Vrijednost koja je bliska za $N \gg 1 $
+\section{Dokument}
+\begin{enumerate}
+	\item 123
+	\item 345
+	\item 678
+\end{enumerate}
+Nenumerisana
+\begin{itemize}
+	\item 43452
+	\item 32423
+	\item 2434
+\end{itemize}
+
+
+\section{Matrice}
+\begin{align}
+&\begin{pmatrix}
+		1 & 2 & 3\\
+		2 & 3 & 1\\
+		3 & 1 & 2
+\end{pmatrix}\nonumber \\
+&\begin{bmatrix}
+		a & b & c \\
+		d & e & f \\
+		g & h & i \\
+\end{bmatrix}^T
+\end{align}
+
+\tableofcontents
+\end{document}
